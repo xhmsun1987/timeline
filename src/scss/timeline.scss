@@ -1,0 +1,314 @@
+   ul.experience-timeline {
+       margin-top: 20px;
+       padding-top: 6px;
+       margin-left: 5px;
+       padding-left: 13px;
+       /* The below selector is for experience-timeline.tl_company */
+       /* The below selector is for the ng-repeat <li> under tl_company */
+       article {
+           border-left: 2px solid #e2e2e2;
+           padding-left: 3.3%;
+           margin-top: 1%;
+           padding-top: 0;
+           .tl_company {
+               padding-top: 0%;
+               padding: 6px 0;
+               position: relative;
+               list-style-type: none;
+               cursor: default;
+               span {
+                   font-family: 'Avenir LT Com 85 Heavy', sans-serif;
+                   line-height: 14px;
+                   font-size: 13px;
+                   font-weight: 400;
+                   margin: 11px 0px 7px 0px;
+                   color: #323232;
+                   letter-spacing: 0.02em;
+               }
+               &:before {
+                   content: "";
+                   position: absolute;
+                   top: 1px;
+                   left: -22px;
+                   width: 15px;
+                   height: 15px;
+                   border: 3px solid white;
+                   border-radius: 15px;
+                   background: #336699;
+               }
+               span:hover {
+                   text-decoration: underline;
+                   cursor: pointer;
+               }
+           }
+           #positions-timeline-executive {
+               background-color: orange;
+           }
+           #positions-timeline-board {
+               margin-bottom:2%;
+               list-style-type: none;
+               .board-current-existing {
+                   a:nth-child(1) {
+                       span:nth-child(2) {
+                           font-size: 14px;
+                           letter-spacing: 0.02em;
+                           font-family: 'Avenir LT Com 45 Book', sans-serif;
+                           font-weight: 300;
+                       }
+                   }
+                   a:nth-child(2) {
+                       span:nth-child(2) {
+                           font-size: 14px;
+                           letter-spacing: 0.02em;
+                           font-family: 'Avenir LT Com 45 Book', sans-serif;
+                           font-weight: 400;
+                       }
+                   }
+                   span {
+                       a {
+                           margin-left: 0px !important;
+                       }
+                   }
+                   .board-hidden-more {
+                       margin-left: 0%;
+                       .board-current-position:nth-child(1) {
+                           li {
+                               list-style-type: none;
+                               a {
+                                   color: #a5a5a5;
+                                   font-size: 13px;
+                                   letter-spacing: 0.02em;
+                                   font-family: 'Avenir LT Com 45 Book', sans-serif;
+                                   font-weight: 400;
+                                   margin-left: -9%;
+                               }
+                           }
+                       }
+                       .board-current-position:nth-child(2) {
+                           li {
+                               list-style-type: none;
+                               a {
+                                   color: #a5a5a5;
+                                   font-size: 13px;
+                                   letter-spacing: 0.02em;
+                                   font-family: 'Avenir LT Com 45 Book', sans-serif;
+                                   font-weight: 400;
+                                   margin-left: -9%;
+                               }
+                           }
+                       }
+                       .board-past-position:nth-child(1) {
+                           li {
+                               list-style-type: none;
+                               a {
+                                   color: #a5a5a5;
+                                   font-size: 13px;
+                                   letter-spacing: 0.02em;
+                                   font-family: 'Avenir LT Com 45 Book', sans-serif;
+                                   font-weight: 400;
+                                   margin-left: -9%;
+                               }
+                           }
+                       }
+                       .board-past-position:nth-child(2) {
+                           li {
+                               list-style-type: none;
+                               a {
+                                   color: #a5a5a5;
+                                   font-size: 13px;
+                                   letter-spacing: 0.02em;
+                                   font-family: 'Avenir LT Com 45 Book', sans-serif;
+                                   font-weight: 400;
+                                   margin-left: -9%;
+                               }
+                           }
+                       }
+                       .formerPositions {
+                           a {
+                               color: #716E6E;
+                               font-weight: 400;
+                               margin-left: -11%;
+                               pointer-events: none;
+                               cursor: default;
+                               text-decoration: none !important;
+                           }
+                       }
+                       .board-past-position {
+                           li {
+                               list-style-type: none;
+                               a {
+                                   color: #a5a5a5;
+                                   font-size: 13px;
+                                   letter-spacing: 0.02em;
+                                   font-family: 'Avenir LT Com 45 Book', sans-serif;
+                                   font-weight: 400;
+                                   margin-left: -9%;
+                               }
+                           }
+                       }
+                       .board-current-position {
+                           li {
+                               list-style-type: none;
+                               a {
+                                   color: #a5a5a5;
+                                   font-size: 13px;
+                                   letter-spacing: 0.02em;
+                                   font-family: 'Avenir LT Com 45 Book', sans-serif;
+                                   font-weight: 400;
+                                   margin-left: -9%;
+                               }
+                           }
+                       }
+                       .board-past-position {
+                           li {
+                               list-style-type: none;
+                               a {
+                                   color: #a5a5a5;
+                                   font-size: 13px;
+                                   letter-spacing: 0.02em;
+                                   font-family: 'Avenir LT Com 45 Book', sans-serif;
+                                   font-weight: 400;
+                                   margin-left: -9%;
+                               }
+                           }
+                       }
+                       .board-past-position {
+                           li {
+                               list-style-type: none;
+                               a {
+                                   color: #a5a5a5;
+                                   font-size: 13px;
+                                   letter-spacing: 0.02em;
+                                   font-family: 'Avenir LT Com 45 Book', sans-serif;
+                                   font-weight: 400;
+                                   margin-left: -9%;
+                               }
+                           }
+                       }
+                   }
+               }
+               .board-current-nonexisting {
+                   a:nth-child(1) {
+                       span {
+                           span:nth-child(1) {
+                               font-size: 13px;
+                               letter-spacing: 0.02em;
+                               font-family: 'Avenir LT Com 45 Book', sans-serif;
+                               font-weight: 300;
+                           }
+                           span:nth-child(2) {
+                               font-size: 13px;
+                               letter-spacing: 0.02em;
+                               font-family: 'Avenir LT Com 45 Book', sans-serif;
+                               font-weight: 300;
+                           }
+                           span:nth-child(3) {
+                               font-size: 13px;
+                               letter-spacing: 0.02em;
+                               font-family: 'Avenir LT Com 45 Book', sans-serif;
+                               font-weight: 300;
+                           }
+                           span:nth-child(4) {
+                               font-size: 13px;
+                               letter-spacing: 0.02em;
+                               font-family: 'Avenir LT Com 45 Book', sans-serif;
+                               font-weight: 300;
+                           }
+                       }
+                   }
+                   a:nth-child(2) {
+                       span:nth-child(1) {
+                           font-size: 13px;
+                           letter-spacing: 0.02em;
+                           font-family: 'Avenir LT Com 45 Book', sans-serif;
+                           font-weight: 300;
+                       }
+                       span:nth-child(2) {
+                           font-size: 13px;
+                           letter-spacing: 0.02em;
+                           font-family: 'Avenir LT Com 45 Book', sans-serif;
+                           font-weight: 400;
+                       }
+                       span:nth-child(3) {
+                           font-size: 13px;
+                           letter-spacing: 0.02em;
+                           font-family: 'Avenir LT Com 45 Book', sans-serif;
+                           font-weight: 300;
+                       }
+                       span:nth-child(4) {
+                           font-size: 13px;
+                           letter-spacing: 0.02em;
+                           font-family: 'Avenir LT Com 45 Book', sans-serif;
+                           font-weight: 400;
+                       }
+                       span:nth-child(5) {
+                           font-size: 13px;
+                           letter-spacing: 0.02em;
+                           font-family: 'Avenir LT Com 45 Book', sans-serif;
+                           font-weight: 300;
+                       }
+                   }
+                   .expandText {
+                       a {
+                           margin-left: 0px;
+                       }
+                   }
+                   .former-board-hidden-more {
+                       .former-board-position-past:nth-child(1) {
+                           li {
+                               list-style-type: none;
+                               margin-left: -9%;
+                               a {
+                                   color: #a5a5a5;
+                                   font-size: 13px;
+                                   letter-spacing: 0.02em;
+                                   font-family: 'Avenir LT Com 45 Book', sans-serif;
+                                   font-weight: 400;
+                                   margin-left: 0%;
+                               }
+                           }
+                       }
+                       .former-board-position-past:nth-child(2) {
+                           li {
+                               list-style-type: none;
+                               a {
+                                   color: #a5a5a5;
+                                   font-size: 13px;
+                                   letter-spacing: 0.02em;
+                                   font-family: 'Avenir LT Com 45 Book', sans-serif;
+                                   font-weight: 400;
+                                   margin-left: -9%;
+                               }
+                           }
+                       }
+                       .former-board-position-past:nth-child(3) {
+                           li {
+                               list-style-type: none;
+                               a {
+                                   color: #a5a5a5;
+                                   font-size: 13px;
+                                   letter-spacing: 0.02em;
+                                   font-family: 'Avenir LT Com 45 Book', sans-serif;
+                                   font-weight: 400;
+                                   margin-left: -9%;
+                               }
+                           }
+                       }
+                       .former-board-position-past:nth-child(4) {
+                           li {
+                               list-style-type: none;
+                               a {
+                                   color: #a5a5a5;
+                                   font-size: 13px;
+                                   letter-spacing: 0.02em;
+                                   font-family: 'Avenir LT Com 45 Book', sans-serif;
+                                   font-weight: 400;
+                                   margin-left: -9%;
+                               }
+                           }
+                       }
+                   }
+               }
+           }
+       }
+   }

@@ -1,0 +1,311 @@
+ 	/* For Engage Project */
+	/* color Palate declaration 
+	1. To enable plain native css use variable declaration follow the rule from line no:23 .
+	     and follow the variable declaration process ,under the root {}.
+	
+	2. This way of using the variable declaration in native css is very new to css (without using any library or framework) and that
+	     is why maybe it will not be supported by all the browsers or all browsers versions
+	3. To the use this procedure go to the url and paste "chrome://flags/ " ,find "Enable experimental WebKit feature " and enable it ,reload the browser and refresh
+	     the browser to see the effect
+	
+	4. Please check your browser compatibility and use this feature if the application doesn't support ,even after following the above steps ,then refer to 
+	     using property and value type declaration ,to avoid code break
+	5. For more info please read  " https://developer.mozilla.org/en-US/docs/Web/CSS/Using_CSS_variables#Browser_compatibility "
+	6. Not a compatable feature,still.
+	
+	 */
+	/*  Property variable declaration  */
+	/*
+	 :root {
+	     --companyName: #323232;
+	     @teal-1 : #19b193;
+	     @teal-2 : #41c0c4;
+	     @teal-3 : #aed2d2;
+	     @teal-4 : #d8e8e7;
+	     @navy-1 : #323b44;
+	     @navy-2 : #4f637f;
+	     @navy-3 : #6e7c93;
+	     @navy-4 : #f1f0f4;
+	     @gray-dark-Gray : #323232;
+	     @gray-Gray : #6a6a6a;
+	     @gray-light-Gray : #a5a5a5;
+	     @gray-4 : #d4d4d4;
+	     @gray-5 : #e2e2e2;
+	     @gray-6 : #efefef;
+	     @gray-7 : #f8f8f8;
+	
+	     @blue-1 : #0e82c6;
+	     @blue-2 : #336699;
+	     @blue-3 : #b3daf1;
+	     @blue-4 : #052e47;
+	
+	
+	     @orange-1: #f4911d;
+	     @orange-2: #f8b567;
+	
+	
+	     @system-red : #ed3327;
+	     @system-green : #5c995e;
+	     @system-yellow1 : #ffbe00;
+	     @system-yellow3 : #ffecb4;
+	 }
+	 
+	 .experience-timeline {
+	     border-left: 3px solid @bg-gray5;
+	     margin-top: 20px;
+	     padding-top: 6px;
+	     margin-left: 35px;
+	     padding-left: 13px;
+	 }
+	
+	 * li {
+	     list-style-type: none;
+	 }
+	
+	 .tl_company span {
+	     font-family: 'Avenir LT Com 85 Heavy', 'Avenir LT W02_65 Medium',sans-serif;
+	     line-height: 15px;
+	     font-size: 14px;
+	     margin: 11px 0px 7px 0px;
+	     color: var(--companyName);
+	     letter-spacing: 0.02em;
+	     font-weight: 300;
+	 }
+	 
+	 .tl_company li:first-child {
+	     margin-top: -15px;
+	 }
+	 
+	 .tl_company::before {
+	     content: "";
+	     position: absolute;
+	     top: 8px;
+	     left: -22px;
+	     width: 15px;
+	     height: 15px;
+	     border: 3px solid @bg-white;
+	     border-radius: 15px;
+	     background: #336699;
+	 }
+	 
+	 .tl_company {
+	     padding: 6px 0;
+	     position: relative;
+	     list-style-type: none;
+	     cursor: default;
+	 }
+	 
+	 .positions-timeline .executive-current-existing a span {
+	     font-family: 'Avenir LT Com 85 Heavy', 'Avenir LT W02_65 Medium',sans-serif;
+	     font-size: 14px;
+	     line-height: 15px;
+	     margin-bottom: 7px;
+	     color: #336699;
+	     letter-spacing: 0.02em;
+	     font-weight: 300;
+	 }
+	 
+	 .executive-hidden-more ul {
+	     margin-top: 7px;
+	 }
+ 
+	 .executive-current-existing .executive-hidden-more .executive-current-position-title,
+	 .executive-current-existing .executive-hidden-more .executive-current-otherInfo-title,
+	 .executive-current-existing .executive-hidden-more .ul-former-positions {
+	     margin-left: -7%;
+	}
+	 
+	 .executive-hidden-more .executive-current-position-title li a {
+	     color: #a5a5a5;
+	    font-family: 'Avenir LT Com 85 Heavy', 'Avenir LT W02_65 Medium',sans-serif;
+	    font-size: 13px;
+	     line-height: 15px;
+	     margin-bottom: 7px;
+	     letter-spacing: 0.02em;
+	     width: 95%;
+	 }
+	 
+	 .executive-hidden-more .executive-current-otherInfo-title li a {
+	     color: #a5a5a5;
+	     font-family: 'Avenir LT Com 85 Heavy', sans-serif;
+	     font-size: 13px;
+	     line-height: 15px;
+	     margin-bottom: 7px;
+	     letter-spacing: 0.02em;
+	     width: 95%;
+	 }
+	 
+	 .executive-hidden-more .ul-former-positions span {
+	     font-family: 'Avenir LT Com 85 Heavy', 'Avenir LT W02_65 Medium',sans-serif;
+	     font-size: 13px;
+	     line-height: 15px;
+	     color: #336699;
+	     letter-spacing: 0.02em;
+	     margin-left: -3%;
+	     font-weight: 300;
+	 }
+	 
+	 .executive-hidden-more .ul-former-positions {
+	     margin-left: -10%;
+	 }
+	 
+	 .executive-hidden-more .ul-former-positions ul {
+	     margin-top: 7px;
+	     margin-left: -10%;
+	 }
+	 
+	 .executive-hidden-more .ul-former-positions ul li a {
+	     color: #a5a5a5;
+	     font-family: 'Avenir LT Com 85 Heavy', 'Avenir LT W02_65 Medium',sans-serif;
+	     font-size: 13px;
+	     line-height: 15px;
+	     margin-bottom: 7px;
+	     letter-spacing: 0.02em;
+	     width: 95%;
+	    font-weight: 300;
+	 }
+	
+	 */
+	/* executive-current-nonexisting */
+	/*
+	 .positions-timeline .executive-current-nonexisting a span {
+	     font-family: 'Avenir LT Com 85 Heavy', 'Avenir LT W02_65 Medium',sans-serif;
+	     line-height: 15px;
+	     font-size: 13px;
+	     margin: 11px 0px 7px 0px;
+	     color: #336699;
+	     letter-spacing: 0.02em;
+	     font-weight: 300;
+	 }
+	 
+	 .positions-timeline .executive-current-nonexisting .former-executive-hidden-more ul {
+	     margin-left: -7%;
+	 }
+	 
+	 .positions-timeline .executive-current-nonexisting .former-executive-hidden-more .executive-past-position li a {
+	     color: #a5a5a5;
+	     font-family: 'Avenir LT Com 85 Heavy', 'Avenir LT W02_65 Medium',sans-serif;
+	     font-size: 13px;
+	    line-height: 15px;
+	     margin-bottom: 7px;
+	     letter-spacing: 0.02em;
+	     width: 95%;
+	     font-weight: 300;
+	 }
+	 
+	 .positions-timeline .executive-current-nonexisting .former-executive-hidden-more .executive-past-otherInfo li a {
+	     color: #a5a5a5;
+	    font-family: 'Avenir LT Com 85 Heavy', 'Avenir LT W02_65 Medium',sans-serif;
+	     font-size: 13px;
+	     line-height: 15px;
+	     margin-bottom: 7px;
+	     letter-spacing: 0.02em;
+	     width: 95%;
+	     font-weight: 300;
+	 }
+	
+	 */
+	/* For Existing board member */
+	/*
+	 .positions-timeline .board-current-existing a span {
+	     font-family: 'Avenir LT Com 85 Heavy', 'Avenir LT W02_65 Medium',sans-serif;
+	     font-size: 13px;
+	     line-height: 15px;
+	     margin-bottom: 7px;
+	     color: #336699;
+	     letter-spacing: 0.02em;
+	     font-weight: 300;
+	 }
+	 
+	 .positions-timeline .board-current-existing .board-hidden-more .board-current-position,
+	 .positions-timeline .board-current-existing .board-hidden-more .board-current-otherInfo,
+	 .positions-timeline .board-current-existing .board-hidden-more .board-past-position {
+	     margin-left: -10%;
+	 }
+	 
+	 .positions-timeline .board-current-existing .board-hidden-more .board-current-position li a {
+	     color: #a5a5a5;
+	     font-family: 'Avenir LT Com 85 Heavy', 'Avenir LT W02_65 Medium',sans-serif;
+	     font-size: 13px;
+	     line-height: 15px;
+	     margin: 0px 0px 7px 12px;
+	     letter-spacing: 0.02em;
+	     width: 95%;
+	     font-weight: 300;
+	 }
+	 
+	 .positions-timeline .board-current-existing .board-hidden-more .board-current-otherInfo li a {
+	     color: #a5a5a5;
+	     font-family: 'Avenir LT Com 85 Heavy', 'Avenir LT W02_65 Medium',sans-serif;
+	     font-size: 13px;
+	     line-height: 15px;
+	     margin: 0px 0px 7px 12px;
+	     letter-spacing: 0.02em;
+	     width: 95%;
+	     font-weight: 300;
+	 }
+	 
+	 .positions-timeline .board-current-existing .board-hidden-more .formerPositions {
+	     font-family: 'Avenir LT Com 85 Heavy', 'Avenir LT W02_65 Medium',sans-serif;
+	     line-height: 15px;
+	     font-size: 13px;
+	     margin: 11px 0px 7px 0px;
+	     color: #336699;
+	     letter-spacing: 0.02em;
+	     margin-left: -11%;
+	    font-weight: 300;
+	 }
+	 
+	 .positions-timeline .board-current-existing .board-hidden-more .board-past-position li a {
+	     color: #a5a5a5;
+	     font-family: 'Avenir LT Com 85 Heavy', 'Avenir LT W02_65 Medium',sans-serif;
+	     font-size: 13px;
+	     line-height: 15px;
+	     margin: 0px 0px 7px 12px;
+	     letter-spacing: 0.02em;
+	     width: 95%;
+	     font-weight: 300;
+	 }
+	 
+	 .positions-timeline .board-current-nonexisting a span {
+	     font-family: 'Avenir LT Com 85 Heavy', 'Avenir LT W02_65 Medium',sans-serif;
+	     font-size: 13px;
+	     line-height: 15px;
+	     margin-bottom: 7px;
+	     color: #336699;
+	     letter-spacing: 0.02em;
+	     font-weight: 300;
+	 }
+	 
+	 .positions-timeline .board-current-nonexisting .former-board-hidden-more {
+	     margin-left: -10%;
+	 }
+	 
+	 .positions-timeline .board-current-nonexisting .former-board-hidden-more .former-board-position-past li a {
+	     color: #a5a5a5;
+	     font-family: 'Avenir LT Com 85 Heavy', 'Avenir LT W02_65 Medium',sans-serif;
+	     font-size: 13px;
+	     line-height: 15px;
+	     margin: 0px 0px 7px 12px;
+	     letter-spacing: 0.02em;
+	     width: 95%;
+	     font-weight: 300;
+	
+	 }
+	 
+	 .positions-timeline .board-current-nonexisting .former-board-hidden-more .former-board-otherInfo li a {
+	     color: #a5a5a5;
+	     font-family: 'Avenir LT Com 85 Heavy', 'Avenir LT W02_65 Medium',sans-serif;
+	     font-size: 13px;
+	     line-height: 15px;
+	     margin: 0px 0px 7px 12px;
+	     letter-spacing: 0.02em;
+	     width: 95%;
+	     font-weight: 300;
+	 }
+	 
+	 .positions-timeline .board-current-nonexisting .former-board-hidden-more .lessText {
+	     margin-left: 8%;
+	     display: block;
+	 }
+	 */

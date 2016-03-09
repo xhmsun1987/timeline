@@ -1,0 +1,16 @@
+/*
+
+1. This file includes the files needed to effect the styles for the application ,
+2. This is the conjucture of all the css files coming together
+ 
+*/
+
+
+@import '../../bower_components/bootstrap/dist/css/bootstrap.css';
+@import 'variable';
+
+/* Custom CSS files  */
+
+@import 'core_styles.css';
+@import 'icomoon-styles.css';
+@import 'timeline.scss';

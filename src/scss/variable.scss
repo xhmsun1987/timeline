@@ -1,0 +1,136 @@
+/*
+
+
+1. Declaring Global variables for the application 
+2. Styles value should be reffered from this file if the property has global value .
+
+
+*/
+
+
+
+//start colors
+$bg-orange1: #F4911D;
+$bg-orange2: #F8B567;
+
+$bg-blue1: #0E82C6;
+$bg-blue2: #336699;
+$bg-blue3: #A2D6ED;
+
+$bg-gray-dark: #323232;
+$bg-gray: #6a6a6a;
+$bg-gray-light: #a5a5a5;
+$bg-gray4: #d4d4d4;
+$bg-gray5: #e2e2e2;
+$bg-gray6: #efefef;
+
+$bg-red: #f05a29;
+$bg-green: #60b046;
+$bg-yellow: #fdeedd;
+$bg-black: #000000;
+$bg-white: #ffffff;
+//end colors
+
+
+
+$gray-darker:            lighten(#000, 13.5%); // #222
+$gray-dark:              lighten(#000, 20%);   // #333
+$gray:                   lighten(#000, 33.5%); // #555
+$gray-light:             lighten(#000, 60%);   // #999
+$gray-lighter:           lighten(#000, 93.5%); // #eee
+
+$brand-primary:         #428bca;
+$brand-success:         #5cb85c;
+$brand-info:            #5bc0de;
+$brand-warning:         #f0ad4e;
+$brand-danger:          #d9534f;
+
+
+
+
+
+/* According to Color Palate  (https://jira.equilar.com/browse/BSP-1908) */
+
+$teal-1 :           #19b193;
+$teal-2 :           #41c0c4;
+$teal-3 :           #aed2d2;
+$teal-4 :           #d8e8e7;
+
+
+$navy-1 :           #323b44;
+$navy-2 :           #4f637f;
+$navy-3 :           #6e7c93;
+$navy-4 :           #f1f0f4;
+
+$gray-dark-Gray :   #323232;
+$gray-Gray :        #6a6a6a;
+$gray-light-Gray :  #a5a5a5;
+$gray-4 :           #d4d4d4;
+$gray-5 :           #e2e2e2;
+$gray-6 :           #efefef;
+$gray-7 :           #f8f8f8;
+
+$blue-1 :           #0e82c6;
+$blue-2 :           #336699;
+$blue-3 :           #b3daf1;
+$blue-4 :           #052e47;
+
+$orange-1:          #f4911d;
+$orange-2:          #f8b567;
+
+$system-red :       #ed3327;
+$system-green :     #5c995e;
+$system-yellow1 :   #ffbe00;
+$system-yellow3 :   #ffecb4;
+
+
+
+ 
+.avenir-light {
+    font-family: 'Avenir LT W02_35 Light', sans-serif;
+}
+.avenir-medium {
+    font-family: 'Avenir LT W02_65 Medium', sans-serif;
+}
+.avenir-heavy {
+    font-family: 'Avenir LT W02_85 Heavy', sans-serif;
+}
+
+.avenir-roman {
+    font-family: 'Avenir LT W02_55 Roman', sans-serif;
+}
+.avenir-book {
+    font-family: 'Avenir LT W02_45 Book', sans-serif;
+} 
+
+
+
+
+
+/*
+.triangle ($top, $left, $width, $height, $color, $right) when ($height > $width) {
+    content: "";
+    position: absolute;
+    top: $top;
+    left: $left;
+    right: $right;
+    width: 0;
+    height: 0;
+    border-left: $width solid transparent;
+    border-right: $width solid transparent;
+    border-top: $height solid $color;
+}
+.triangle ($top, $left, $width, $height, $color, $right) when (default()) {
+    content: "";
+    position: absolute;
+    top: $top;
+    left: $left;
+    right: $right;
+    width: 0;
+    height: 0;
+    border-top: $width solid transparent;
+    border-bottom: $width solid transparent;
+    border-left: $height solid $color;
+}
+
+*/ 

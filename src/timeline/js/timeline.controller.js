@@ -1,7 +1,7 @@
 (function() {
 
     angular.module("bsp.timeLine", [
-
+            'templates-app'
         ])
         .directive('timeline', function($rootScope, companyProfileService, personProfileService) {
             return {

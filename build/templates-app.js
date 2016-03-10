@@ -1,4 +1,4 @@
-angular.module('templates-app', ['timeline/timeline.html']);
+angular.module('templates-timeline', ['timeline/timeline.html']);
 
 angular.module("timeline/timeline.html", []).run(["$templateCache", function($templateCache) {
   $templateCache.put("timeline/timeline.html",

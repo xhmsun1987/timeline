@@ -395,7 +395,7 @@ module.exports = function(grunt) {
                     'module.prefix',
                     '<%= build_dir %>/src/**/*.module.js',
                     '<%= build_dir %>/src/**/*.js',
-                    '<%= html2js.app.dest %>',
+                    '<%= html2js.timeline.dest %>',
                     '<%= html2js.common.dest %>',
                     'module.suffix'
                 ],
@@ -537,7 +537,7 @@ module.exports = function(grunt) {
          */
         html2js: {
             // These are the templates from 'src/app'.
-            app: {
+            timeline: {
                 src: ['<%= app_files.appTemplates %>'],
                 dest: '<%= build_dir %>/templates-app.js'
             },
@@ -571,7 +571,7 @@ module.exports = function(grunt) {
                     '<%= build_dir %>/src/**/*.module.js',
                     '<%= build_dir %>/src/**/*.js',
                     '<%= html2js.common.dest %>',
-                    '<%= html2js.app.dest %>',
+                    '<%= html2js.timeline.dest %>',
                     '<%= build_dir %>/assets/<%= pkg.name %>-<%= pkg.version %>.css'
                 ]
             },
@@ -615,7 +615,7 @@ module.exports = function(grunt) {
                 dir: '<%= build_dir %>',
                 src: [
                     '<%= vendor_files.js %>',
-                    '<%= html2js.app.dest %>',
+                    '<%= html2js.timeline.dest %>',
                     '<%= html2js.common.dest %>',
                     '<%= test_files.js %>'
                 ]

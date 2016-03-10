@@ -1,7 +1,7 @@
 (function() {
 
     angular.module("bsp.timeLine", [
-            'templates-app'
+            'templates-timeline'
         ])
         .directive('timeline', function($rootScope, companyProfileService, personProfileService) {
             return {
@@ -47,7 +47,7 @@
                         companyProfileService.showOrganizationProfileModal(company);
                     };
                 },
-                templateUrl: 'timeline/timeline.html'
+                templateUrl: '../timeline.html'
             };
         });
 

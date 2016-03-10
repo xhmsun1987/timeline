@@ -47,7 +47,7 @@
                         companyProfileService.showOrganizationProfileModal(company);
                     };
                 },
-                templateUrl: '../timeline.html'
+                templateUrl: 'timeline/timeline.html'
             };
         });
 

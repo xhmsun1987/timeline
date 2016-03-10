@@ -39,7 +39,7 @@ module.exports = function(grunt) {
             js: ['src/**/*.js'],
             jsunit: ['src/**/*.spec.js'],
 
-            appTemplates: ['src/app/**/*.html'],
+            appTemplates: ['src/timeline/*.html'],
             commonTemplates: ['src/common/**/*.html'],
 
             html: ['src/timeline/timeline.html'],
@@ -538,9 +538,6 @@ module.exports = function(grunt) {
         html2js: {
             // These are the templates from 'src/app'.
             app: {
-                options: {
-                    base: 'src/app'
-                },
                 src: ['<%= app_files.appTemplates %>'],
                 dest: '<%= build_dir %>/templates-app.js'
             },
